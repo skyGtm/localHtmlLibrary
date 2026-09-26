@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="HTML Library Setup" android:textSize="26sp" android:textStyle="bold"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="18dp" android:text="Choose the folder containing your HTML files."/>
+    <Button android:id="@+id/libraryButton" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:text="Choose HTML folder"/>
+    <TextView android:id="@+id/libraryText" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="18dp" android:text="Choose a separate persistent folder for app data, WebView state and metadata."/>
+    <Button android:id="@+id/dataButton" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:text="Choose app-data folder"/>
+    <TextView android:id="@+id/dataText" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="8dp"/>
+    <Button android:id="@+id/continueButton" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="Continue" android:enabled="false"/>
+</LinearLayout>
